@@ -1,9 +1,6 @@
 import csv
-
-
 input_file = 'security_incidents.csv'
 output_file = 'security_incidents_modified.csv'
-
 
 with open(input_file, mode='r') as infile:
     reader = csv.reader(infile)
